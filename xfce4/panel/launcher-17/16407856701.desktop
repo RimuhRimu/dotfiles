@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=exo-open /usr/share/doc/litemanual/index.html
+Icon=litemanual
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+OnlyShowIn=XFCE;
+Name=Help Manual
+Comment=The Linux Lite Help & Support Manual
+NoDisplay=false
+X-XFCE-Source=file:///home/almeja/.local/share/applications/exo-terminal-emulator.desktop

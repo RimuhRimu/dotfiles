@@ -1,0 +1,58 @@
+{
+    "com.github.fajtak.ulauncher-weather": {
+        "id": "com.github.fajtak.ulauncher-weather",
+        "url": "https://github.com/fajtak/ulauncher-weather",
+        "updated_at": "2021-12-29T12:18:13.014131",
+        "last_commit": "d87a90a318646bdf81efa1a71392f300f45f8d5b",
+        "last_commit_time": "2021-08-12T08:03:26"
+    },
+    "com.github.sebastian-correa.ulauncher-rae-dle": {
+        "id": "com.github.sebastian-correa.ulauncher-rae-dle",
+        "url": "https://github.com/sebastian-correa/ulauncher-rae-dle",
+        "updated_at": "2021-12-29T12:55:05.322131",
+        "last_commit": "74334beaca7b284166dd8f41a769e037ee83bd32",
+        "last_commit_time": "2021-08-06T19:43:51"
+    },
+    "com.github.melianmiko.ulauncher-bluetoothd": {
+        "id": "com.github.melianmiko.ulauncher-bluetoothd",
+        "url": "https://github.com/melianmiko/ulauncher-bluetoothd",
+        "updated_at": "2021-12-29T12:55:11.450693",
+        "last_commit": "ae8a1d0686d5230e9b30a6cdf45ca6edb4e68e63",
+        "last_commit_time": "2021-09-11T12:39:49"
+    },
+    "com.github.fsevenm.ulauncher-uuid": {
+        "id": "com.github.fsevenm.ulauncher-uuid",
+        "url": "https://github.com/fsevenm/ulauncher-uuid",
+        "updated_at": "2021-12-29T12:55:41.285913",
+        "last_commit": "2fbb70fd2af246277b2baff03465bc8bd971c85f",
+        "last_commit_time": "2021-01-14T04:26:08"
+    },
+    "com.github.kleber-swf.ulauncher-turn-off-screen": {
+        "id": "com.github.kleber-swf.ulauncher-turn-off-screen",
+        "url": "https://github.com/kleber-swf/ulauncher-turn-off-screen",
+        "updated_at": "2021-12-29T12:45:27.641901",
+        "last_commit": "a461b89706008fcb5605b6e800fec29308b70a04",
+        "last_commit_time": "2020-11-18T20:05:35"
+    },
+    "com.github.manahter.ulauncher-ip-analysis": {
+        "id": "com.github.manahter.ulauncher-ip-analysis",
+        "url": "https://github.com/manahter/ulauncher-IP-Analysis",
+        "updated_at": "2022-01-02T01:39:13.985227",
+        "last_commit": "ea408404cd5c860664e770bd49c03fcaa3681116",
+        "last_commit_time": "2021-12-29T16:25:34"
+    },
+    "com.github.episode6.ulauncher-system-management-direct": {
+        "id": "com.github.episode6.ulauncher-system-management-direct",
+        "url": "https://github.com/episode6/ulauncher-system-management-direct",
+        "updated_at": "2021-12-29T13:11:15.562202",
+        "last_commit": "c6c0febff9eae884e4a8bc97d057480436fb5c9b",
+        "last_commit_time": "2020-07-22T18:41:36"
+    },
+    "com.github.elken.terminal-runner": {
+        "id": "com.github.elken.terminal-runner",
+        "url": "https://github.com/elken/Terminal-Runner",
+        "updated_at": "2021-12-29T13:11:22.407318",
+        "last_commit": "6807ebe6047462bcce6063c63228eddcb8c6b481",
+        "last_commit_time": "2020-02-22T23:04:04"
+    }
+}

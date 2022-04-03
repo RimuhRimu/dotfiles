@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=/usr/bin/lite-updates
+Icon=liteupdates
+StartupNotify=true
+Terminal=false
+Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+OnlyShowIn=XFCE;
+X-XFCE-MimeType=inode/directory;x-scheme-handler/trash;
+Name=Install Updates
+Comment=Get the latest updates for your computer
+X-XFCE-Source=file:///home/almeja/.local/share/applications/exo-file-manager.desktop

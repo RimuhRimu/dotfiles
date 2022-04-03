@@ -1,0 +1,47 @@
+[xfdesktop-version-4.10.3+-rcfile_format]
+4.10.3+=true
+
+[/home/lenteja/Desktop/userfiles.desktop]
+row=4
+col=0
+
+[/home/lenteja/Desktop/helpmanual.desktop]
+row=6
+col=0
+
+[/home/lenteja/Desktop/Counter Strike 1.6 No Steam.desktop]
+row=8
+col=0
+
+[/home/lenteja/Desktop/Dedicated Server.desktop]
+row=7
+col=0
+
+[/home/lenteja/Desktop/settings.desktop]
+row=5
+col=0
+
+[/home/lenteja/Desktop/steam.desktop]
+row=0
+col=0
+
+[/home/lenteja/Desktop/pseint.desktop]
+row=1
+col=0
+
+[/home/lenteja/Desktop/computer.desktop]
+row=3
+col=0
+
+[/home/lenteja/Desktop/Dedicated Server.lnk]
+row=1
+col=1
+
+[/home/lenteja/Desktop/Counter Strike 1.6 No Steam.lnk]
+row=0
+col=1
+
+[Trash]
+row=2
+col=0
+
