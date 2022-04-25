@@ -98,7 +98,11 @@ function M.config()
         },
       },
     },
-    pickers = {},
+    pickers = {
+      find_files = {
+        find_command = { "fdfind", "--type=file", "--hidden", "--follow", "--exclude=.git"}
+      },
+    },
     extensions = {},
   }))
 end

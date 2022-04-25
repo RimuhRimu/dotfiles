@@ -45,8 +45,6 @@ end
 if utils.is_available "bufferline.nvim" then
   map("n", "<S-l>", "<cmd>BufferLineCycleNext<cr>")
   map("n", "<S-h>", "<cmd>BufferLineCyclePrev<cr>")
-  map("n", "}", "<cmd>BufferLineMoveNext<cr>")
-  map("n", "{", "<cmd>BufferLineMovePrev<cr>")
 else
   map("n", "<S-l>", "<cmd>bnext<CR>")
   map("n", "<S-h>", "<cmd>bprevious<CR>")
@@ -90,7 +88,7 @@ if not utils.is_available "which-key.nvim" then
   -- Standard Operations
   map("n", "<leader>w", "<cmd>w<CR>")
   map("n", "<leader>q", "<cmd>q<CR>")
-  map("n", "<leader>h", "<cmd>nohlsearch<CR>")
+  map("n", "<leader>0", "<cmd>nohlsearch<CR>")
 
   if utils.is_available "vim-bbye" then
     map("n", "<leader>cb", "<cmd>Bdelete!<CR>")
@@ -188,7 +186,7 @@ if not utils.is_available "which-key.nvim" then
     map("n", "<leader>sb", function()
       require("telescope.builtin").git_branches()
     end)
-    map("n", "<leader>sh", function()
+    map("n", "<leader>sp", function()
       require("telescope.builtin").help_tags()
     end)
     map("n", "<leader>sm", function()
@@ -219,7 +217,7 @@ if not utils.is_available "which-key.nvim" then
 
   -- Comment
   if utils.is_available "Comment.nvim" then
-    map("n", "<leader>/", function()
+    map("n", "ct", function()
       require("Comment.api").toggle_current_linewise()
     end)
   end
@@ -266,7 +264,7 @@ map("v", "<C-k>", "<cmd>m .-2<CR>==")
 
 -- Comment
 if utils.is_available "Comment.nvim" then
-  map("v", "<leader>ct", "<esc><cmd>lua require('Comment.api').toggle_linewise_op(vim.fn.visualmode())<CR>")
+  map("v", "ct", "<esc><cmd>lua require('Comment.api').toggle_linewise_op(vim.fn.visualmode())<CR>")
 end
 
 -- Visual Block --

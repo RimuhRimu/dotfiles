@@ -11,6 +11,7 @@ function M.config()
   neotree.setup(require("core.utils").user_plugin_opts("plugins.neo-tree", {
     close_if_last_window = true,
     popup_border_style = "rounded",
+    update_cwd = true,
     enable_git_status = true,
     enable_diagnostics = false,
     default_component_configs = {
@@ -57,8 +58,8 @@ function M.config()
         ["<2-LeftMouse>"] = "open",
         ["<cr>"] = "open",
         ["o"] = "open",
-        ["S"] = "open_split",
-        ["s"] = "open_vsplit",
+        ["S"] = "split_with_window_picker",
+        ["s"] = "vsplit_with_window_picker",
         ["C"] = "close_node",
         ["<bs>"] = "navigate_up",
         ["."] = "set_root",
@@ -66,7 +67,7 @@ function M.config()
         ["R"] = "refresh",
         ["/"] = "fuzzy_finder",
         ["f"] = "filter_on_submit",
-        ["<c-x>"] = "clear_filter",
+        ["<c-f>"] = "clear_filter",
         ["a"] = "add",
         ["d"] = "delete",
         ["r"] = "rename",

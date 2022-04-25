@@ -199,7 +199,7 @@ if utils.is_available "telescope.nvim" then
     end,
     "Checkout branch",
   }
-  mappings.s.h = {
+  mappings.s.p = {
     function()
       require("telescope.builtin").help_tags()
     end,

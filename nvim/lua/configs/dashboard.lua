@@ -35,7 +35,7 @@ function M.config()
     d = { description = { "   New File                  SPC f n" }, command = "DashboardNewFile" },
     e = { description = { "   Bookmarks                 SPC b m" }, command = "Telescope marks" },
     f = { description = { "   Last Session              SPC s l" }, command = "SessionLoad" },
-    g = { description = { "   Terminal              SPC s h j" }, command = "term" },
+    g = { description = { "   Terminal                SPC s h j" }, command = "term" },
   }
 
   g.dashboard_custom_footer = {
