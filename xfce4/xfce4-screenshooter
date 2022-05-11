@@ -1,8 +1,8 @@
 app=feh
 last_user=
-screenshot_dir=file:///home/lenteja/Pictures
+screenshot_dir=file:/home/lenteja/Dropbox/img/miscelaneo
 action=2
-delay=0
-region=1
+delay=2
+region=3
 show_mouse=0
 

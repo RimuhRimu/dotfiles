@@ -110,13 +110,13 @@ template4='~/.config/conky/vision/.conky-vision-icons/#fff__32',  --  +4days
 -------------------------------------
 --  API Key
 -------------------------------------
-template6="YOUR_API i use openweathermap.org",
+template6="8a4a888abb7307d25e8016aea7a9da2c",
 
 
 -------------------------------------
 --  City ID
 -------------------------------------
-template7="YOUR_CITY_ID",
+template7="3646738",
 
 
 -------------------------------------

@@ -1,7 +1,7 @@
 if status is-interactive
   clear
   set fish_greeting "Welcome, dear user :)"
-  neofetch --kitty $HOME/.config/neofetch/wallpaper.jpg
+  neofetch --kitty $HOME/.config/neofetch/wallpaper1.jpg
 end
 
 
@@ -9,9 +9,11 @@ end
 test -s "$HOME/.config/envman/load.fish"; and source "$HOME/.config/envman/load.fish"
 
 # Deno PATH
-# Enable if you use deno and need to add it to hte $PATH
-# set -x DENO_INSTALL /home/$USER/.deno
-# set -x PATH $DENO_INSTALL/bin:$PATH
+set -x DENO_INSTALL /home/$USER/.deno
+set -x PATH $DENO_INSTALL/bin:$PATH
+set -x PATH /home/$USER/.cargo/bin:$PATH
+set -x PATH /usr/lib/dart/bin:$PATH
+set -x MANPAGER "sh -c 'col -bx | batcat -l man -p'"
 
 # =============================================================================
 #
