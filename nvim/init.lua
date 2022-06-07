@@ -6,7 +6,6 @@ if impatient_ok then
 end
 
 local utils = require "core.utils"
-
 utils.disabled_builtins()
 
 utils.bootstrap()

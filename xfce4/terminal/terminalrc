@@ -30,7 +30,7 @@ MiscShowRelaunchDialog=TRUE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
 BackgroundDarkness=0,600000
-ColorForeground=#1717f0f01818
+ColorForeground=#ffffffffffff
 ShortcutsNoMenukey=TRUE
 TitleMode=TERMINAL_TITLE_HIDE
 

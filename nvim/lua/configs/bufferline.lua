@@ -42,7 +42,6 @@ function M.config()
       buffer_selected = {
         guifg = { attribute = "fg", highlight = "BufferLineBufferSelected" },
         guibg = { attribute = "bg", highlight = "BufferLineBufferSelected" },
-        gui = "NONE",
       },
       buffer_visible = {
         guifg = { attribute = "fg", highlight = "BufferLineBufferVisible" },

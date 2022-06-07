@@ -2,7 +2,7 @@ app=feh
 last_user=
 screenshot_dir=file:/home/lenteja/Dropbox/img/miscelaneo
 action=2
-delay=2
+delay=1
 region=3
 show_mouse=0
 

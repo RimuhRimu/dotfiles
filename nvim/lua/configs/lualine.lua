@@ -20,8 +20,6 @@ function M.config()
     return
   end
 
-  local colors = require "default_theme.colors"
-
   local conditions = {
     buffer_not_empty = function()
       return vim.fn.empty(vim.fn.expand "%:t") ~= 1
@@ -42,7 +40,7 @@ function M.config()
     end,
     padding = { left = 0, right = 0 },
   }
-  
+
   local colors = {
     bg       = '#202328',
     fg       = '#bbc2cf',

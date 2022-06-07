@@ -16,6 +16,10 @@ local config = {
     diagnostics_style = {},
   },
 
+  disabled = {
+    packer = false,
+  },
+
   enabled = {
     bufferline = true,
     neo_tree = true,

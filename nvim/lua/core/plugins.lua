@@ -190,6 +190,7 @@ local astro_plugins = {
   {
     "hrsh7th/nvim-cmp",
     event = "InsertEnter",
+    after = "gelfand/copilot.vim",
     config = function()
       require("configs.cmp").config()
     end,
@@ -397,6 +398,15 @@ local astro_plugins = {
 
   -- Get extra JSON schemas
   { "b0o/SchemaStore.nvim" },
+
+  {
+		"gelfand/copilot.vim",
+		config = function ()
+			-- copilot assume mapped
+      vim.g.copilot_no_tab_map = true
+      vim.g.copilot_assume_mapped = true
+		end
+	},
 }
 
 packer.startup {
